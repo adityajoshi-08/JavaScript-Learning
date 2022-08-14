@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stone Paper Scissors</title>
+    <title>Stone Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="main">
+            <div class="salutation">
+            <h1>
+                Welcome to the game!
+            </h1>
+        </div>
+        <div class="options">
+            <button id="stone" onclick="stone()">Stone 🗿</button>
+            <button id="paper" onclick="paper()">Paper 📄</button>
+            <button id="scissors" onclick="scissors()">Scissors ✂</button>
+        </div>
+
+        <p id="result"></p>
+        <div class="playagain">
+            <h3>Do you want to play again?</h3>
+            <button onclick="window.location.reload()">Yes</button>
+            <button>No</button>
+        </div>
+        </div>
+        
+    </div>
 </body>
 </html>
