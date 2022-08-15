@@ -1,0 +1,11 @@
+{
+    "name": "Calculator",
+    "version": "1.0.0",
+    "description": "Our personal calculator extension",
+    "manifest_version": 3,
+    "author": "Your Name",
+    "action":{
+        "default_popup": "index.html", 
+        "default_title": "Calculator"
+    }
+}
